@@ -52,6 +52,7 @@ class Marc implements Developer {
       await this.language.use(framework);
     }
     
+    await this.coffee.drink();
     this.language.writeSomeCode();
   }
   
