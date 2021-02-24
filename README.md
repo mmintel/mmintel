@@ -59,6 +59,10 @@ class Marc implements Developer {
     const jest = this.frameworks.find(f => f instanceOf Jest);
     jest.run();
   }
+  
+  public dance(): void {
+    // do nothing
+  }
 }
 
 const language: Language = new Typescript();
