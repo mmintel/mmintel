@@ -12,7 +12,9 @@ import {
 } from '@mmintel/awesome';
 
 interface Developer extends Human {
+  test: () => void;
   code: () => void;
+  addFramework: () => void;
 }
 
 class Marc implements Developer {
