@@ -4,7 +4,7 @@ import {
   Coffee,
   Cappuccino,
   Language,
-  TypescriptLanguage,
+  Typescript,
   React,
   Vue,
   NestJS,
@@ -61,7 +61,7 @@ class Marc implements Developer {
   }
 }
 
-const language: Language = new TypescriptLanguage();
+const language: Language = new Typescript();
 const coffe: Coffee = new Cappuccino();
 
 const marc = new Marc(language, coffee);
