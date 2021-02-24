@@ -62,7 +62,7 @@ class Marc implements Developer {
 const language: Typescript = new TypescriptLanguage();
 const coffe: Coffee = new Cappuccino();
 
-const marc = new Marc(language);
+const marc = new Marc(language, coffee);
 
 marc.addFramework(React);
 marc.addFramework(Vue);
